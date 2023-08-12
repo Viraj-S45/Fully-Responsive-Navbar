@@ -6,9 +6,12 @@ Enhance your web projects with this fully responsive navigation bar (navbar) cod
 
 ## Preview
 
-Mobile:![App Screenshot](https://i.imgur.com/6L7rwsA.jpg)
-Tablet:![App Screenshot](https://i.imgur.com/XHQFLo6.jpg)
-Laptop/Desktop:![App Screenshot](https://i.imgur.com/f8ODFHn.jpg)
+Mobile:
+![App Screenshot](https://i.imgur.com/6L7rwsA.jpg)
+Tablet:
+![App Screenshot](https://i.imgur.com/XHQFLo6.jpg)
+Laptop/Desktop:
+![App Screenshot](https://i.imgur.com/f8ODFHn.jpg)
 
 
 ## Features
