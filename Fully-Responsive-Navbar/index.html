@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Rest of your code -->
+      </head>
+      
+
+    <title>RD Navbar</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <div class="navbar">
+      <div class="navbar-logo">
+        <img src="./src/logo.png" alt="Logo" />
+      </div>
+      <div class="navbar-title"><span class="gradient">RD.</span>Navbar</div>
+      <div class="navbar-links">
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="divider"></div>
+      <div class="navbar-button">Start Using This</div>
+    </div>
+
+
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+      
+        window.addEventListener('scroll', function() {
+          if (window.scrollY > 0) {
+            navbar.classList.add('navbar-transparent');
+          } else {
+            navbar.classList.remove('navbar-transparent');
+          }
+        });
+      </script>
+      
+      
+      
+      
+  </body>
+</html>
